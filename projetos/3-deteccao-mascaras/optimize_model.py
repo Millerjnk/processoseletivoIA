@@ -10,7 +10,16 @@ from ultralytics import YOLO
 # ---------------------------------------------------------------------------
 
 # insira seu código aqui
+print("Iniciando a otimização do modelo 'model.pt'\n")
 
+model = YOLO("model.pt")
+
+#format foi modificado de "tflite" para "litert", já que esse tipo foi depreciado e
+#a documentação recomenda a utilização desta nova. O mesmo arquivo "model.tflife" é 
+#gerado
+model.export(format="litert", imgsz=640)
+
+print("Exportação e otimização finalizadas\n")
 # Dica de estrutura (não é obrigatório seguir exatamente assim):
 #
 # model = YOLO("model.pt")
