@@ -15,7 +15,31 @@ from ultralytics import YOLO
 # ---------------------------------------------------------------------------
 
 # insira seu código aqui
+print("Iniciando treinamento YOLO\n")
 
+model = YOLO("yolo11n.pt")
+
+results = model.train(
+    data="dataset/data.yaml",
+    epochs=30,
+    batch=16,
+    imgsz=640,
+    device="cpu",
+    workers=8,
+    verbose=True,
+) 
+print("Treinamento concluído. Realizando cópia dos arquivos\n")
+
+try:
+    shutil.copy(results.save_dir/"weights"/"best.pt", "model.pt")
+    print("Cópia dos pesos foi concluída\n")
+except FileNotFoundError:
+    print("Erro: Cópia falhou. Não foi possível achar os pesos\n")
+except PermissionError:
+    print("Erro: Cópia falhou. Permissão negada\n")
+except Exception as e:
+    print(f"Erro: Cópia falhou. {e}\n")
+    
 # Dica de estrutura (não é obrigatório seguir exatamente assim):
 #
 # model = YOLO("yolo11n.pt")
