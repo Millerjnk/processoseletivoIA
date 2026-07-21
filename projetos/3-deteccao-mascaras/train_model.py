@@ -26,7 +26,7 @@ results = model.train(
     imgsz=640,
     device="cpu",
     workers=8,
-    verbose=True,
+    verbose=True
 ) 
 print("Treinamento concluído. Realizando cópia dos arquivos\n")
 
