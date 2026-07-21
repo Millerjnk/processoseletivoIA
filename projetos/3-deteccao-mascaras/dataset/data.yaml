@@ -1,5 +1,5 @@
-train: /home/runner/work/processoseletivoIA/processoseletivoIA/projetos/3-deteccao-mascaras/dataset/images/train
-val: /home/runner/work/processoseletivoIA/processoseletivoIA/projetos/3-deteccao-mascaras/dataset/images/val
+train: "/home/runner/work/processoseletivoIA/processoseletivoIA/projetos/3-deteccao-mascaras/dataset/images/train"
+val: "/home/runner/work/processoseletivoIA/processoseletivoIA/projetos/3-deteccao-mascaras/dataset/images/val"
 names:
   0: with_mask
   1: without_mask
