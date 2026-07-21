@@ -130,7 +130,7 @@ projetos/3-deteccao-mascaras/
 
 ## 📝 Relatório do Candidato
 
-👤 **Nome Completo:**
+👤 **Nome Completo:** Guilherme Miller Gama Cardoso
 
 ### 1️⃣ Resumo da Abordagem
 

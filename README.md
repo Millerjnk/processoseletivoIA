@@ -187,5 +187,5 @@ Em caso de dúvidas:
 - Analise os logs das GitHub Actions
 - Utilize os canais oficiais para contato com os instrutores
 
-Boa sorte no processo seletivo.
+Boa sorte no processo seletivo!
 ****
