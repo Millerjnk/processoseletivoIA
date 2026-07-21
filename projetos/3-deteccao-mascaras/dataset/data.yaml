@@ -1,4 +1,4 @@
-path: ../projetos/3-deteccao-mascaras/dataset
+path: '../projetos/3-deteccao-mascaras/dataset'
 train: images/train
 val: images/val
 names:
