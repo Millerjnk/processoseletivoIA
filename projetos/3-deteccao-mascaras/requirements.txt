@@ -1,5 +1,4 @@
-ultralytics<8.4.83
-torch==2.5.1
-torchvision==0.20.1
-opencv-python
-tensorflow-cpu
+ultralytics
+torch==2.4.1
+torchvision==0.19.1
+ai-edge-litert
