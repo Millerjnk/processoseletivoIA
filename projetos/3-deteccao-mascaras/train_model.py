@@ -21,7 +21,7 @@ model = YOLO("yolo11n.pt")
 
 results = model.train(
     data="dataset/data.yaml",
-    epochs=1,
+    epochs=15,
     batch=16,
     imgsz=640,
     device="cpu",
