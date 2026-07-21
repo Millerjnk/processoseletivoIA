@@ -96,8 +96,8 @@ jobs:
       - name: Instalar dependências do projeto escolhido
         run: |
           # Força a instalação de uma versão do PyTorch que funciona com o LiteRT
-          pip install torch==2.5.1 torchvision==0.20.1 torchaudio==2.5.1
-          pip install ultralytics ai-edge-litert
+          # pip install torch==2.5.1 torchvision==0.20.1 torchaudio==2.5.1
+          # pip install ultralytics ai-edge-litert
           python -m pip install --upgrade pip
           pip install -r "projetos/$PROJECT/requirements.txt"
 

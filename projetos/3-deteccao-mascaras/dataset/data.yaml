@@ -1,6 +1,5 @@
-path: '../projetos/3-deteccao-mascaras/dataset'
-train: images/train
-val: images/val
+train: ../projetos/3-deteccao-mascaras/dataset/images/train 
+val: ../projetos/3-deteccao-mascaras/dataset/images/val
 names:
   0: with_mask
   1: without_mask
