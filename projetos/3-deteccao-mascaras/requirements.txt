@@ -1,6 +1,5 @@
-ultralytics>=8.4
-torch<2.13.0
-torchvision
-ultralytics
+ultralytics<8.4.83
+torch==2.5.1
+torchvision==0.20.1
 opencv-python
-litert-torch
+
